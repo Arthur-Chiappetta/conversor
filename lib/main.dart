@@ -50,7 +50,7 @@ class _HomeState extends State<Home> {
   void _updatePrice(){
     setState(() {
 
-      var data = DateFormat('yyyy-MM-dd - kk:mm:ss').format(DateTime.now()) ;
+      var data = DateFormat('yyyy-MM-dd - kk:mm').format(DateTime.now()) ;
 
 
       titleDolar = "Dólar atualizado";
